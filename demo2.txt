@@ -37,4 +37,7 @@ Not all code on GitHub comes with an open source license. But if it does, that l
 As long as you adhere to the licensing terms that it is published under, yes. Not all code on GitHub comes with an open source license
 =======
 
+%%%%%%%%%%%%% Feature#1###########
+Wildcards and directories work too. So instead of getting a single file from another branch you can also do a git checkout branch * 
+or git checkout branch path/to/directory.
 
