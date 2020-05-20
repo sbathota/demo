@@ -5,3 +5,9 @@ You cannot create a branch for a single file in Git.
 When you create a branch, you create a branch for the entire repo. 
 (Of course, unlike Subversion, a branch does not create actual on-disk copies of your files, 
 so branches are cheap and don't take up as much extra space as a Subversion branch.)
+
+#Feature1#
+In the Development panel, click Create Branch. ...
+Choose the repository where you want to create the branch.
+Select the Branch type and Branch name, then click Create branch. ...
+Once the new branch is created, Bitbucket takes you to the file listing.
