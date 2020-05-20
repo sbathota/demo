@@ -11,3 +11,19 @@ In the Development panel, click Create Branch. ...
 Choose the repository where you want to create the branch.
 Select the Branch type and Branch name, then click Create branch. ...
 Once the new branch is created, Bitbucket takes you to the file listing.
+
+
+
+#feature2#################
+
+Wildcards and directories work too. So instead of getting a single file from another branch you can also do a git checkout branch * 
+or git checkout branch path/to/directory.
+All paths are relative, so if you're not in the root of a repo, you need to give the relative path to your file(s).
+
+##############Added below text for Feature3####################
+
+It can be done in the deployed repository:
+The git fetch command will download all the recent changes, but it will not put it in your current checked out code (working area).
+Then the checkout command will update the working tree with the particular file from the downloaded changes (origin/master).
+=======
+
