@@ -5,3 +5,9 @@ You cannot create a branch for a single file in Git.
 When you create a branch, you create a branch for the entire repo. 
 (Of course, unlike Subversion, a branch does not create actual on-disk copies of your files, 
 so branches are cheap and don't take up as much extra space as a Subversion branch.)
+
+#feature2#################
+
+Wildcards and directories work too. So instead of getting a single file from another branch you can also do a git checkout branch * 
+or git checkout branch path/to/directory.
+All paths are relative, so if you're not in the root of a repo, you need to give the relative path to your file(s).
