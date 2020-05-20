@@ -37,4 +37,8 @@ Not all code on GitHub comes with an open source license. But if it does, that l
 As long as you adhere to the licensing terms that it is published under, yes. Not all code on GitHub comes with an open source license
 =======
 
+******************Feature#2***********^^^^^^^^^^^^^
+It can be done in the deployed repository:
+The git fetch command will download all the
+
 
