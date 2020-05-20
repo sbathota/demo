@@ -27,3 +27,7 @@ The git fetch command will download all the recent changes, but it will not put 
 Then the checkout command will update the working tree with the particular file from the downloaded changes (origin/master).
 =======
 
+############ Added New Feature Text###########
+
+In order to clone a specific branch, you have to execute “git branch” with the “-b” and specify the branch you want to clone. 
+$ git clone -b dev https://github.com/username/project.git Cloning into 'project'... remote: Enumerating
